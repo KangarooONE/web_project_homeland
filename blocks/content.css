@@ -1,0 +1,51 @@
+.content__container{
+    padding-left: 148px;
+    padding-right: 302px;
+}
+
+
+
+.content__top-text{
+font-family: "Inter";
+font-weight: 900;
+font-size: 54px;
+color: #ffff;
+line-height: 58px;
+letter-spacing: 0%;
+margin-bottom: 40px;
+}
+
+.content__quote{
+
+    font-family: "Inter";
+font-weight: 400;
+font-size: 24px;
+color: #ffff;
+line-height: 34px;
+letter-spacing: 0%;
+margin-bottom: 10px;
+}
+
+
+.content__quote-cite{
+    font-family: "Inter";
+font-weight: 400;
+font-size: 24px;
+color: #ffff;
+line-height: 34px;
+letter-spacing: 0%;
+margin-bottom: 32px;
+
+}
+
+
+.content__bottom-text{
+    font-family: "Inter";
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+letter-spacing: 0%;
+color: #ffff;
+margin-bottom: 92px;
+
+}

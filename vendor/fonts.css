@@ -1,0 +1,12 @@
+@font-face {
+  src: url(../vendor/fonts/Inter-VariableFont_opsz\,wght.ttf) format("ttf");
+  font-family: "inter";
+  font-weight: normal;
+}
+
+
+@font-face {
+  src: url(../vendor/fonts/Inter-VariableFont_opsz\,wght.ttf) format("ttf");
+  font-family: "inter";
+  font-weight: bold;
+}
