@@ -1,0 +1,95 @@
+.intro {
+  margin-top: 92px;
+}
+
+
+
+.intro__top-text{
+width: 100%;
+max-width: 830px;
+box-sizing: border-box;
+font-family: "Inter-black";
+font-weight: 900;
+font-size: 54px;
+color: #ffff;
+line-height: 58px;
+margin: auto;
+
+}
+
+.intro__quote{
+    width: 100%;
+max-width: 738px;
+box-sizing: border-box;
+font-family: "Inter";
+font-weight: 400;
+font-size: 24px;
+color: #ffff;
+line-height: 34px;
+margin: 39.98px auto auto auto;
+
+}
+
+
+.intro__quote-cite{
+    width: 100%;
+max-width: 732px;
+box-sizing: border-box;
+font-family: "Inter";
+font-weight: 400;
+font-size: 24px;
+color: #ffff;
+line-height: 34px;
+padding: 1rem;
+text-align: right;
+margin: 10px auto auto auto;
+}
+
+
+.intro__bottom-text{
+    width: 100%;
+max-width: 722px;
+font-family: "Inter";
+font-weight: 400;
+font-size: 16px;
+ line-height: 163%;
+letter-spacing: 0%;
+color: #ffff;
+margin: 31.99px auto auto auto;
+
+}
+
+@media (max-width: 768px) {
+  .intro__top-text {
+    font-size: 2.8rem;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__top-text {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__quote {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__quote-cite {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__bottom-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
