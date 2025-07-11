@@ -1,5 +1,6 @@
 .lead {
   margin-top: 91.06px;
+  width: 100%;
 }
 
 
@@ -31,25 +32,29 @@ margin: 32px auto auto auto;
 
 }
 
+.lead__image{
+  width: 100%;
+}
 .lead__image-element{
     width: 100%;
     max-width: 984px;
     height: auto;
     margin: 64px auto auto auto;
     display: block;
-      box-sizing: border-box;
+
+
 
 }
 
 @media (max-width: 840px) {
-  .lead {
+  .lead__text {
    padding: 0 24px;
 
   }
 }
 
 @media (max-width: 340px) {
-  .lead {
+  .lead__text {
    padding: 0 16px;
   }
 }
