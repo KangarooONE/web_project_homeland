@@ -13,11 +13,11 @@
 font-family: 'inter-black';
 font-weight: 900;
 color: #ffffff;
-font-size: 6em;
+font-size: 6rem;
 line-height: 1.04;
 text-align: center;
-margin: auto;
-  box-sizing: border-box;
+margin: 0 auto;
+
 
 }
 
@@ -30,28 +30,18 @@ font-size: 1.875rem;
 color: #ffffff;
 line-height: 1.2;
 text-align: center;
-margin: 32px auto 0 auto;
-  box-sizing: border-box;
+margin: 32px auto 0;
+
 
 }
 
-.lead__image img{
-  width: 100%;
-}
 .lead__image img{
     width: 100%;
     max-width: 984px;
     height: auto;
-    margin: 64px auto 0 auto;
+    margin: 64px auto 0;
     display: block;
-
-
-
 }
-
-
-
-
 
 @media (max-width: 840px) {
   .lead__title {
