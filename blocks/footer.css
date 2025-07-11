@@ -11,9 +11,15 @@ max-width: 194px;
 width: 100%;
 }
 
-@media (max-width: 320px) {
+.footer__copyright{
+  font-size: 0.875rem;
+line-height: 1.14;
+}
+
+@media (max-width: 340px) {
   .footer__copyright {
-    line-height: 16px;
+    font-size: 0.875rem;
+line-height: 1;
   }
 }
 
