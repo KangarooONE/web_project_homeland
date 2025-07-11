@@ -1,4 +1,4 @@
-# Titulo
+# Título
 
 Diseño Web Adaptativo
 
@@ -6,14 +6,14 @@ Diseño Web Adaptativo
 
 Juan Delgado
 
-# Tecnologias
+# Tecnologías
 
 HTML5
 CSS
 MEDIA QUERIES
 GITHUB
 
-# Descripcion
+# Descripción
 
 Diseño de un sitio web responsivo que se adapte a diferentes tamaños de viewport.
 
