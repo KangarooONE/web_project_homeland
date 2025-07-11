@@ -13,6 +13,7 @@ font-size: 6em;
 line-height: 1.04;
 text-align: center;
 margin: auto;
+  box-sizing: border-box;
 
 }
 
@@ -26,6 +27,8 @@ color: #ffffff;
 line-height: 1.2;
 text-align: center;
 margin: 32px auto auto auto;
+  box-sizing: border-box;
+
 }
 
 .lead__image-element{
@@ -34,11 +37,14 @@ margin: 32px auto auto auto;
     height: auto;
     margin: 64px auto auto auto;
     display: block;
+      box-sizing: border-box;
+
 }
 
 @media (max-width: 840px) {
   .lead {
    padding: 0 24px;
+
   }
 }
 
