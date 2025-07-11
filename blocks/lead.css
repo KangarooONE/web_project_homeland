@@ -35,10 +35,10 @@ margin: 32px auto 0 auto;
 
 }
 
-.lead__image{
+.lead__image img{
   width: 100%;
 }
-.lead__image-element{
+.lead__image img{
     width: 100%;
     max-width: 984px;
     height: auto;
