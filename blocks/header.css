@@ -12,8 +12,17 @@
   height: 68.94px;
 }
 
-@media (max-width: 320px) {
+
+@media (max-width: 840px) {
   .header__logo {
-    width: 190px;
+    width: 254px;
+  }
+}
+
+
+
+@media (max-width: 340px) {
+  .header__logo {
+    width: 188px;
   }
 }

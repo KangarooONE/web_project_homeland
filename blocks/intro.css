@@ -1,5 +1,6 @@
 .intro {
   margin-top: 92px;
+
 }
 
 
@@ -10,9 +11,9 @@ max-width: 830px;
 box-sizing: border-box;
 font-family: "Inter-black";
 font-weight: 900;
-font-size: 54px;
+font-size: 3.375rem;
 color: #ffff;
-line-height: 58px;
+line-height: 1.07;
 margin: auto;
 
 }
@@ -23,9 +24,9 @@ max-width: 738px;
 box-sizing: border-box;
 font-family: "Inter";
 font-weight: 400;
-font-size: 24px;
+font-size: 1.5rem;
 color: #ffff;
-line-height: 34px;
+line-height: 1.42;
 margin: 39.98px auto auto auto;
 
 }
@@ -37,9 +38,9 @@ max-width: 732px;
 box-sizing: border-box;
 font-family: "Inter";
 font-weight: 400;
-font-size: 24px;
-color: #ffff;
-line-height: 34px;
+font-size: 1.5rem;
+color: #ffffff;
+line-height: 1.42;
 padding: 1rem;
 text-align: right;
 margin: 10px auto auto auto;
@@ -51,62 +52,63 @@ margin: 10px auto auto auto;
 max-width: 722px;
 font-family: "Inter";
 font-weight: 400;
-font-size: 16px;
- line-height: 163%;
+font-size: 1rem;
+ line-height: 1.63;
 color: #ffff;
 margin: 31.99px auto auto auto;
 
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 900px) {
   .intro {
-    padding: 0 24px
+
+    margin-right: 143px;
+  }
+}
+@media (max-width: 1030px) {
+  .intro {
+    padding: 0 24px;
+
   }
 }
 
-@media (max-width: 768px) {
-  .intro {
-    padding: 0 24px
-  }
-}
-
-@media (max-width: 320px) {
+@media (max-width: 340px) {
   .intro {
     padding: 0 16px
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
   .intro__top-text {
     font-size: 2.8rem;
     line-height: 1.1;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
   .intro__top-text {
     font-size: 2rem;
-    line-height: 1.1;
+    line-height: 1.09;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
   .intro__quote {
     font-size: 1.5rem;
-    line-height: 1.5;
+    line-height: 1.25;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
   .intro__quote-cite {
     font-size: 1.5rem;
-    line-height: 1;
+    line-height: 1.42;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
   .intro__bottom-text {
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1.63;
   }
 }
