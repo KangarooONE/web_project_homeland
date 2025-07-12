@@ -1,11 +1,5 @@
 .footer{
-margin: 92px auto 0;
-display: flex;
-font-weight: 400;
-color: #ffffff;
-justify-content: center;
-padding-bottom: 24px;
-width: 100%;
+margin-top: 92px;
 }
 
 .footer__copyright{
@@ -13,10 +7,19 @@ width: 100%;
 line-height: 1.14;
 }
 
-@media (max-width: 340px) {
+@media screen and (max-width: 340px) {
   .footer__copyright {
-    font-size: 0.875rem;
 line-height: 1;
+  }
+  .footer{
+margin-top: 65px
   }
 }
 
+@media screen and (max-width: 1030px){
+
+  .footer{
+
+    margin-top: 88px;
+  }
+}
