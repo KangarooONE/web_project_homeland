@@ -1,5 +1,5 @@
 .intro {
-  margin-top: 92px;
+  margin: 92px;
   max-width: 840px;
   align-self: start;
  margin-left: clamp(16px, -492px + 50vw, 148px);
@@ -8,6 +8,7 @@
 
 
 .intro__title{
+margin: 0;
 max-width: 830px;
 font-weight: 900;
 font-size: 3.375rem;
@@ -38,7 +39,7 @@ margin-top: 32px;
 }
 
 
-@media (max-width: 1030px){
+@media (max-width: 800px){
   .intro{
     margin: 90px 24px 0;
     max-width: 720px;
@@ -57,27 +58,27 @@ margin-top: 32px;
 
 
 
-@media (max-width: 340px) {
+@media (max-width: 530px) {
   .intro {
    margin: 64px 16px 0;
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 530px) {
   .intro__title {
     font-size: 2rem;
     line-height: 1.09;
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 530px) {
   .intro__text_type_quote {
     margin-top: 40px;
     line-height: 1.25;
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 530px) {
   .intro__text_type_author{
 
     line-height: 1.42;
@@ -85,7 +86,7 @@ margin-top: 32px;
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 530px) {
   .intro__text_type_description {
     font-size: 1rem;
     line-height: 1.63;
